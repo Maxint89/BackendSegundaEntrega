@@ -1,0 +1,17 @@
+{
+  "name": "backend-i-tpf",
+  "version": "1.0.0",
+  "description": "Proyecto del curso de Backend I de Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Maximiliano Teileche",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "Cerveza",
+        "description": "Heineken",
+        "price": 600,
+        "code": "ber123",
+        "stock": 96,
+        "category": "bebida",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": 2,
+        "title": "Vino",
+        "description": "Toro Viejo",
+        "price": 250,
+        "code": "tor487",
+        "stock": 52,
+        "category": "bebida",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": 3,
+        "title": "Agua",
+        "description": "Glaciar",
+        "price": 210,
+        "code": "gla789",
+        "stock": 70,
+        "category": "bebida",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": 4,
+        "title": "Fideos",
+        "description": "Don Vicente",
+        "price": 350,
+        "code": "dvc975",
+        "stock": 127,
+        "category": "alimento",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": 5,
+        "title": "Arroz",
+        "description": "Gallo Oro",
+        "price": 430,
+        "code": "goo746",
+        "stock": 33,
+        "category": "alimento",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": 6,
+        "title": "Harina",
+        "description": "Blancaflor",
+        "price": 300,
+        "code": "hbf947",
+        "stock": 35,
+        "category": "alimento",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": 7,
+        "title": "Aceite de oliva",
+        "description": "Natura",
+        "price": 490,
+        "code": "ano725",
+        "stock": 12,
+        "category": "alimento",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": 8,
+        "title": "Vinagre de alcohol",
+        "description": "Menoyo",
+        "price": 280,
+        "code": "vda321",
+        "stock": 29,
+        "category": "alimento",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": 9,
+        "title": "Servilletas de papel",
+        "description": "Cotex",
+        "price": 270,
+        "code": "sdp123",
+        "stock": 24,
+        "category": "limpieza",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": 10,
+        "title": "Papel higienico",
+        "description": "Scott",
+        "price": 235,
+        "code": "phs146",
+        "stock": 23,
+        "category": "limpieza",
+        "status": true,
+        "thumbnails": []
+    }
+]
