@@ -1,4 +1,4 @@
-const fs = require("fs").promises;
+import { promises as fs } from 'fs';
 
 class CartManager {
     constructor(path) {
@@ -44,7 +44,7 @@ class CartManager {
             }
             return carritoBuscado;
         } catch (error) {
-            console.log("Error al obtener el carrito por id, vamos a morir");
+            console.log("Error al obtener el carrito por id");
             throw error;
         }
     }
@@ -63,4 +63,4 @@ class CartManager {
 
 }
 
-module.exports = CartManager; 
+export default CartManager; 

@@ -1,6 +1,6 @@
-const express = require("express");
-const ProductManager = require("../controllers/product-manager.js");
-const manager = new ProductManager("./src/models/productos.json");
+import express from "express";
+import ProductManager from "../manager/product-manager.js";
+const manager = new ProductManager("./src/data/products.json");
 const router = express.Router();
 
 //Metodo para mostrar todos los productos:
@@ -84,4 +84,4 @@ router.delete("/:pid", async (req, res) => {
     }
 });
 
-module.exports = router; 
+export default router; 

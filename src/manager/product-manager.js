@@ -1,4 +1,4 @@
-const fs = require("fs").promises;
+import { promises as fs } from 'fs';
 
 
 class ProductManager {
@@ -19,9 +19,9 @@ class ProductManager {
         }
     }
 
-    async addProduct({ title, description, price, img, code, stock }) {
+    async addProduct({ title, description, price, code, stock, category, img, status }) {
 
-        if (!title || !description || !price || !img || !code || !stock) {
+        if (!title || !description || !price || !code || !stock || !category || !img) {
             console.log("Todos los campos son obligatorios");
             return;
         }
@@ -36,9 +36,11 @@ class ProductManager {
             title,
             description,
             price,
-            img,
             code,
-            stock
+            stock,
+            category,
+            status: true,
+            img: img || [] 
         };
         this.products.push(nuevoProducto);
         await this.guardarArchivo(this.products);
@@ -60,7 +62,7 @@ class ProductManager {
             const buscado = arrayProductos.find(item => item.id === id);
 
             if (!buscado) {
-                console.log("producto no encontrado");
+                console.log("Producto no encontrado");
                 return null;
             } else {
                 console.log("Producto encontrado");
@@ -119,4 +121,4 @@ class ProductManager {
 
 }
 
-module.exports = ProductManager; 
+export default ProductManager; 
